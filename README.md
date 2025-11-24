@@ -31,6 +31,22 @@ npm run dev
 npm run build
 ```
 
+### Deployment
+
+This project includes a GitHub Actions workflow that automatically builds and deploys to GitHub Pages when code is pushed to the `main` branch.
+
+**To enable GitHub Pages:**
+1. Go to your repository Settings → Pages
+2. Under "Build and deployment", select "GitHub Actions" as the source
+3. Push to the `main` branch to trigger deployment
+4. Your site will be live at `https://<username>.github.io/<repository-name>/`
+
+**Manual deployment:**
+```bash
+npm run build
+# Deploy the dist/ folder to your hosting service
+```
+
 ### Features
 
 - **GPU-based particle simulation** with texture-based storage (up to 2M particles)
