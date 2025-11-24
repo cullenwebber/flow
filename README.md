@@ -33,12 +33,12 @@ npm run build
 
 ### Deployment
 
-This project includes a GitHub Actions workflow that automatically builds and deploys to GitHub Pages when code is pushed to the `main` branch.
+This project includes a GitHub Actions workflow that automatically builds and deploys to GitHub Pages when code is pushed to the `master` or `main` branch.
 
 **To enable GitHub Pages:**
 1. Go to your repository Settings → Pages
 2. Under "Build and deployment", select "GitHub Actions" as the source
-3. Push to the `main` branch to trigger deployment
+3. Push to the `master` branch to trigger deployment
 4. Your site will be live at `https://<username>.github.io/<repository-name>/`
 
 **Manual deployment:**
